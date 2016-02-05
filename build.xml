@@ -28,7 +28,7 @@
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
     <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}">
             <manifest>
-                <attribute name="Main-Class" value="schlomer.Customer"/>
+                <attribute name="Main-Class" value="schlomer.customer.CustomerApp"/>
             </manifest>
     </jar>
   </target>
@@ -41,7 +41,7 @@
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
     <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}">
             <manifest>
-                <attribute name="Main-Class" value="schlomer.Customer"/>
+                <attribute name="Main-Class" value="schlomer.customer.CustomerApp"/>
             </manifest>
     </jar>
      <java fork="on"
