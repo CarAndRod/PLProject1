@@ -1,7 +1,6 @@
-package schlomer;
+package schlomer.customer;
 
 public class Customer {
-
     private String name;
     private String address;
     private String city;

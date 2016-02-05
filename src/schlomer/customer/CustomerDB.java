@@ -1,4 +1,4 @@
-package schlomer;
+package schlomer.customer;
 
 /**
  * Created by daniel on 2/4/16.
